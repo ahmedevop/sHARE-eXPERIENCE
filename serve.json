@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4322,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://352rbm.sharepoint.com/sites/proged2",
+      "customActions": {
+        "c15bf76d-20d0-4338-87a6-009fe73888b2": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "CSSFileLocation": "/Style%20Library/global.css"
+          }
+        }
+      }
+    },
+    "css": {
+      "pageUrl": "https://352rbm.sharepoint.com/sites/proged2",
+      "customActions": {
+        "c15bf76d-20d0-4338-87a6-009fe73888b2": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "CSSFileLocation": "/Style%20Library/global.css"
+          }
+        }
+      }
+    }
+  }
+}
